@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ShiponsWork.Namaz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.ShiponsWork.Namaz.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ShiponsWork.Namaz.dua"></activity>
+        <activity android:name="com.ShiponsWork.Namaz.jikir" />
+        <activity android:name="com.ShiponsWork.Namaz.Allah_name" />
+        <activity android:name="com.ShiponsWork.Namaz.menu" />
+        <activity android:name="com.ShiponsWork.Namaz.about" />
+        <activity android:name="com.ShiponsWork.Namaz.tomorrow" />
+        <activity android:name="com.ShiponsWork.Namaz.weekly_time" />
+        <activity android:name="com.ShiponsWork.Namaz.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".ReminderBroadcast" />
+    </application>
+
+</manifest>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jikir">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33C911"
+        android:elevation="4dp"
+        android:minHeight="?actionBarSize"
+        app:navigationIcon="@mipmap/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/qibla" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:background="#448AFF"
+            android:text="@string/allah"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/jikir1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:background="#448AFF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pllus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="+"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimary"
+            android:text="clear" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@drawable/button"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:background="#448AFF"
+            android:text="@string/subahanallah"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/jikir2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:background="#448AFF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pllus2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="+"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clear2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimary"
+            android:text="clear" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:background="#448AFF"
+            android:text="@string/alhamdulillah"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/jikir3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:background="#448AFF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pllus3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="+"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clear3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimary"
+            android:text="clear" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@drawable/button"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:background="#448AFF"
+            android:text="@string/lailaha"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/jikir4"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:background="#448AFF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pllus4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="+"
+            android:textSize="24sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clear4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimary"
+            android:text="clear" />
+    </LinearLayout>
+</LinearLayout>

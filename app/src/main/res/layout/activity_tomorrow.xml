@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tomorrow"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33C911"
+        android:elevation="4dp"
+        android:minHeight="?actionBarSize"
+        app:navigationIcon="@mipmap/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/qibla" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:text="country"
+            android:textColor="#FFD600"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/timezone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="timezone"
+            android:textColor="#FFD600"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="210dp"
+            android:id="@+id/eng1"
+            android:layout_height="match_parent"
+            android:text="yy-mm-dd" android:textColor="#FFD600"
+            android:textSize="24sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:layout_width="210dp"
+            android:id="@+id/hijri1"
+            android:layout_height="match_parent"
+            android:text="yy-mm-dd"
+            android:textColor="#FFD600"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#AEEA00"
+            android:text="Fazar"
+            android:textColor="#0C0A0A"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/fazar1"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:text="fazar"
+            android:textColor="#0C0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:text="Sunrise"
+            android:textColor="#0C0A0A"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/sunrise1"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:text="sunrise"
+            android:textColor="#0C0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:text="Johor"
+            android:textColor="#0C0A0A"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/johor1"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:text="johor"
+            android:textColor="#0C0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#AEEA00"
+            android:text="Asor"
+            android:textColor="#0C0A0A"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/asor1"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:text="asor"
+            android:textColor="#0C0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#AEEA00"
+            android:text="Maghrib"
+            android:textColor="#0C0A0A"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/maghrib1"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:text="magrib"
+            android:textColor="#0C0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#AEEA00"
+            android:text="Isha"
+            android:textColor="#0C0A0A"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/isha1"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:background="#AEEA00"
+            android:text="isha"
+            android:textColor="#0C0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</LinearLayout>

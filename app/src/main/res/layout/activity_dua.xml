@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dua">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33C911"
+        android:elevation="4dp"
+        android:minHeight="?actionBarSize"
+        app:navigationIcon="@mipmap/ic_launcher_foreground" />
+    <Button
+        android:id="@+id/namazdua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="নামাজের বিভিন্ন সুরা"
+        android:background="@drawable/button"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bisesdua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বিভিন্ন সময় / কাজে দোয়া"
+        android:background="@drawable/button"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fazilotdua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বিভিন্ন ফজিলত পূর্ণ দোয়া"
+        android:background="@drawable/button"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/ayatulkorsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="আয়াতুল কুরসি " />
+
+    <Button
+        android:id="@+id/duaiunus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="দুয়ায় ইউনুস" />
+
+    <Button
+        android:id="@+id/mohamari"
+        android:layout_width="match_parent"
+        android:background="@drawable/button"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="মহামারি থেকে বাচার দোয়া" />
+
+</LinearLayout>
